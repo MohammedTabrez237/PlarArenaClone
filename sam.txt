@@ -1,0 +1,157 @@
+<html>
+<head>
+    <title>Newsletter Subscription</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .newsletter {
+            margin-bottom: 30px;
+        }
+        .newsletter h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+        .newsletter p {
+            font-size: 18px;
+            margin: 10px 0 30px;
+        }
+        .newsletter input[type="email"] {
+            padding: 15px;
+            border: none;
+            border-radius: 25px;
+            width: 300px;
+            font-size: 16px;
+        }
+        .newsletter button {
+            background-color: #007bff;
+            border: none;
+            border-radius: 25px;
+            padding: 15px;
+            margin-left: -50px;
+            cursor: pointer;
+        }
+        .footer {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 20px;
+            width: 100%;
+            max-width: 1200px;
+        }
+        .footer div {
+            margin: 10px;
+            text-align: left;
+        }
+        .footer h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .footer p, .footer a {
+            font-size: 14px;
+            color: #fff;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        .social-icons {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .social-icons i {
+            font-size: 20px;
+            color: #fff;
+        }
+        .copyright {
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            border-top: 1px solid #333;
+        }
+        @media (max-width: 768px) {
+            .footer {
+                flex-direction: column;
+                align-items: center;
+            }
+            .newsletter input[type="email"] {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+            .newsletter button {
+                margin-left: 0;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="newsletter">
+            <h1>Never miss an update</h1>
+            <p>Subscribe to our Newsletter</p>
+            <div>
+                <input type="email" placeholder="Enter Email ID">
+                <button><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+        <div class="footer">
+            <div>
+                <h3>Play Arena Sports & Adventure Pvt. Ltd.</h3>
+                <p>Sy#75, Hosa Road, off Sarjapur Road,<br>opp Silverwood Regency Apartments,<br>Kasavanahalli, Bangalore 560035</p>
+                <div class="social-icons">
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div>
+            <div>
+                <h3>Play</h3>
+                <p>Prime</p>
+                <p>Pixel</p>
+                <p>Studio</p>
+                <p>Union</p>
+                <p>Junior</p>
+            </div>
+            <div>
+                <h3>Participate</h3>
+                <p>Up Your Game</p>
+                <p>Events</p>
+            </div>
+            <div>
+                <h3>Host</h3>
+                <p>Birthdays at PLaY</p>
+                <p>Corporate events</p>
+                <p>Make an Enquiry</p>
+            </div>
+            <div>
+                <h3>Food & Beverages</h3>
+                <p><a href="#">Food Court</a></p>
+                <p><a href="#">Restaurant</a></p>
+            </div>
+            <div>
+                <h3>Contact</h3>
+                <p>99000 999 22</p>
+                <p>info@playarena.in</p>
+                <p><a href="#">Get Directions</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2025. All rights reserved. <a href="#">Disclaimer</a> | <a href="#">Privacy Policy</a></p>
+    </div>
+</body>
+</html>
